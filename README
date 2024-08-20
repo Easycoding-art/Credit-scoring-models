@@ -1,0 +1,25 @@
+This repository was created to solve Credit scoring problem.
+About Dataset
+This dataset is provided by the credit bureau for educational purposes and contains data from 2023. It includes information about 73,420 clients with various attributes to predict payday loan default. The dataset structure is as follows:
+
+client_id: Unique identifier for each client
+gender: Gender of the client (e.g., Male, Female)
+age: Age of the client
+education_level: Client's level of education (e.g., High School, Bachelor's)
+owns_car: Indicates whether the client owns a car (1 for Yes, 0 for No)
+car_category: Category of the car owned by the client (e.g., economy, luxury, etc.)
+housing_status: Category of housing status (e.g., rent, own, etc.)
+job_prestige: Prestige category of the client's job
+stable_employment: Indicates whether the client has stable employment (1 for Yes, 0 for No)
+annual_income: Client's annual income
+travel_history: Indicates whether the client has a foreign passport and travel history
+declined_applications: Number of previously declined loan applications
+credit_score: Client's credit score based on bureau data
+credit_inquiries: Number of credit inquiries made by credit bureaus
+branch_category: Category of the branch based on channel and location
+social_networking: Client's connections with other bank clients
+info_update_recency: Recency of information update by the client
+application_date: Date when the loan application was submitted (in datetime format with Eastern Time Zone)
+default_status: Indicates whether the client has defaulted on a loan (1 for Default, 0 for No Default)
+
+The dataset provides a comprehensive view of the client profiles, enabling detailed analysis and modeling for credit risk prediction.
